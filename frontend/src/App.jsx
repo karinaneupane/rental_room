@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import Navbar from './Components/layout/Navbar.jsx'
+import Homepage from './Pages/Homepage.jsx'
 import './App.css'
 
 function App() {
@@ -7,7 +8,7 @@ function App() {
 
   return (
     <>
-      <Navbar/>
+      <Homepage/>
     </>
   )
 }
